@@ -1,44 +1,111 @@
 {
   "basics": {
     "name": "Kyeongmin Yeo",
-    "label": "Research Scientist",
+    "label": "Undergraduate Researcher",
     "image": "",
     "email": "aaaaa@kaist.ac.kr",
-    "phone": "Not Available",
-    "url": "https://32v.github.io/",
-    "summary": "Just a newbie"
+    "url": "https://32V.github.io/",
+    "summary": "Undergraduate student at KAIST, conducting research on generative models and computer graphics at Visual AI Lab. Interested in generative modeling and visual content generation, including images, videos, and textures."
   },
+  "work": [
+    {
+      "name": "KAIST Visual AI Lab",
+      "location": "Daejeon, South Korea",
+      "position": "Research Intern",
+      "url": "https://visualai.kaist.ac.kr/",
+      "startDate": "2023-12",
+      "summary": "Conducting research on generative models and 3D computer graphics under the supervision of Prof. Minhyuk Sung."
+    }
+  ],
   "education": [
     {
       "institution": "KAIST",
-      "location": "Daejeon, South Korea",
       "url": "https://kaist.ac.kr",
       "area": "Computer Science",
       "studyType": "Bachelor",
-      "startDate": "2022-03-01",
-      "endDate": "2026-02-01",
-      "courses": ["many courses"]
+      "startDate": "2022-02",
+      "endDate": "2026-02"
     }
   ],
   "publications": [
     {
-      "name": "SyncTweedies: A General Generative Framework Based on Synchronized Diffusions",
-      "publisher": "arXiv",
-      "releaseDate": "2024-03-21",
-      "url": "https://arxiv.org/abs/2403.14370",
-      "summary": "We introduce a general framework for generating diverse visual content, including ambiguous images, panorama images, mesh textures, and Gaussian splat textures, by synchronizing multiple diffusion processes."
-    }
-  ],
-  "languages": [
-    {
-      "language": "Korean",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Ψ-Sampler: Initial Particle Sampling for SMC-Based Inference-Time Reward Alignment in Score Models",
+      "publisher": "NeurIPS 2025",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2506.01320",
+      "summary": "A novel initial particle sampling method for SMC-based inference-time reward alignment in score models."
     },
     {
-      "language": "English",
-      "fluency": "Baby level",
-      "icon": ""
+      "name": "ORIGEN: Zero-Shot 3D Orientation Grounding in Text-to-Image Generation",
+      "publisher": "NeurIPS 2025",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2503.22194",
+      "summary": "A method for zero-shot 3D orientation grounding in text-to-image generation."
+    },
+    {
+      "name": "Neural Green's Functions",
+      "publisher": "NeurIPS 2025",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2511.01924",
+      "summary": "A neural solution operator for linear partial differential equations inspired by Green's functions."
+    },
+    {
+      "name": "StochSync: Stochastic Diffusion Synchronization for Image Generation in Arbitrary Spaces",
+      "publisher": "ICLR 2025",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2501.15445",
+      "summary": "A stochastic diffusion synchronization framework for image generation in arbitrary spaces."
+    },
+    {
+      "name": "Neural Pose Representation Learning for Generating and Transferring Non-Rigid Object Poses",
+      "publisher": "NeurIPS 2024",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2406.09728",
+      "summary": "A neural pose representation for generating and transferring non-rigid object poses."
+    },
+    {
+      "name": "SyncTweedies: A General Generative Framework Based on Synchronized Diffusions",
+      "publisher": "NeurIPS 2024",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/abs/2403.14370",
+      "summary": "A general framework for generating diverse visual content by synchronizing multiple diffusion processes."
+    }
+  ],
+  "awards": [
+    {
+      "title": "IPESK Next-Generation Engineer Award (Grand Prize)",
+      "date": "2025",
+      "awarder": "IPESK"
+    },
+    {
+      "title": "Kim Yong-Han Global Leader Scholarship",
+      "date": "2025",
+      "awarder": "KAIST"
+    },
+    {
+      "title": "Global Leadership Award (Creativity)",
+      "date": "2025",
+      "awarder": "KAIST"
+    },
+    {
+      "title": "College of Engineering Leadership Award",
+      "date": "2024",
+      "awarder": "KAIST College of Engineering"
+    },
+    {
+      "title": "Department Honors Scholarship",
+      "date": "2023",
+      "awarder": "KAIST School of Computing"
+    },
+    {
+      "title": "KAIST Presidential Fellowship (KPF)",
+      "date": "2022",
+      "awarder": "KAIST"
+    },
+    {
+      "title": "National Excellence Scholarship (Natural Sciences and Engineering)",
+      "date": "2022",
+      "awarder": "Korea Student Aid Foundation"
     }
   ]
 }

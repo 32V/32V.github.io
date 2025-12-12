@@ -11,3 +11,4 @@ services:
       - .:/srv/jekyll
     environment:
       - JEKYLL_ENV=development
+    network_mode: bridge
