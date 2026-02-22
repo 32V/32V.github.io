@@ -10,8 +10,8 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>KAIST '22</p>
-    <p>Visual AI Lab Intern</p>
-    <p>Generative AI & Computer Graphics Enthusiast</p>
+    <p>Visual AI Lab M.S. Student</p>
+    <p>Generative AI & Computer Graphics</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -24,4 +24,4 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-I am currently a senior undergraduate student in KAIST. I've been a research intern at the KAIST Visual AI Lab since the winter of 2023. My research mainly focuses on generative AI, especially diffusion-based and flow-based models. I am particularly interested in the application of these models in computer vision and content creation.
+I am a M.S. student at the KAIST Visual AI Lab, advised by Prof. Minhyuk Sung. My research mainly focuses on generative AI, especially diffusion-based and flow-based models. I am particularly interested in the application of these models in computer vision and content creation.

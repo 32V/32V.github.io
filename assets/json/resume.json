@@ -1,23 +1,30 @@
 {
   "basics": {
     "name": "Kyeongmin Yeo",
-    "label": "Undergraduate Researcher",
+    "label": "M.S. Student",
     "image": "",
     "email": "aaaaa@kaist.ac.kr",
     "url": "https://32V.github.io/",
-    "summary": "Undergraduate student at KAIST, conducting research on generative models and computer graphics at Visual AI Lab. Interested in generative modeling and visual content generation, including images, videos, and textures."
+    "summary": "M.S. student at KAIST Visual AI Lab, conducting research on generative models and computer graphics. Interested in generative modeling and visual content generation, including images, videos, and textures."
   },
   "work": [
     {
       "name": "KAIST Visual AI Lab",
       "location": "Daejeon, South Korea",
-      "position": "Research Intern",
+      "position": "M.S. Student",
       "url": "https://visualai.kaist.ac.kr/",
       "startDate": "2023-12",
       "summary": "Conducting research on generative models and 3D computer graphics under the supervision of Prof. Minhyuk Sung."
     }
   ],
   "education": [
+    {
+      "institution": "KAIST",
+      "url": "https://kaist.ac.kr",
+      "area": "Computer Science",
+      "studyType": "M.S.",
+      "startDate": "2026-03"
+    },
     {
       "institution": "KAIST",
       "url": "https://kaist.ac.kr",
