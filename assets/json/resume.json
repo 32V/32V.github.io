@@ -10,12 +10,7 @@
   "interests": [
     {
       "name": "Academic Interests",
-      "keywords": [
-        "Generative AI",
-        "Diffusion & Flow-Based Generative Models",
-        "Computer Vision",
-        "Visual Content Creation"
-      ]
+      "keywords": ["Generative AI", "Diffusion & Flow-Based Generative Models", "Computer Vision", "Visual Content Creation"]
     }
   ],
   "work": [
@@ -44,9 +39,7 @@
       "area": "Computer Science",
       "studyType": "M.S.",
       "startDate": "2026-02",
-      "courses": [
-        "Advisor: Prof. Minhyuk Sung"
-      ]
+      "courses": ["Advisor: Prof. Minhyuk Sung"]
     },
     {
       "institution": "KAIST",
@@ -55,10 +48,7 @@
       "studyType": "B.S.",
       "startDate": "2022-02",
       "endDate": "2026-02",
-      "courses": [
-        "Summa Cum Laude (GPA: 4.18 / 4.3, Major GPA: 4.30 / 4.3)",
-        "Top Rank in Computer Science Department"
-      ]
+      "courses": ["Summa Cum Laude (GPA: 4.18 / 4.3, Major GPA: 4.30 / 4.3)", "Top Rank in Computer Science Department"]
     }
   ],
   "publications": [
