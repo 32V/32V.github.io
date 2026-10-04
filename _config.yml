@@ -8,7 +8,7 @@ middle_name:
 last_name: Yeo
 email: aaaaa@kaist.ac.kr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  KAIST '22 | Visual AI Lab M.S. Student | Generative AI & Computer Graphics
+  M.S. Student at KAIST Visual AI Group | Multimodal Generative AI & Computer Graphics
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -85,7 +85,7 @@ kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: Kyeongmin Yeo # your LinkedIn user name
+linkedin_username: kyeongmin-yeo-a2964535b # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: # your ORCID ID
@@ -188,20 +188,20 @@ newsletter:
 # Collections
 # -----------------------------------------------------------------------------
 
-# collections:
-#   news:
-#     defaults:
-#       layout: post
-#     output: true
-#     permalink: /news/:path/
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
 #   projects:
 #     output: true
 #     permalink: /projects/:path/
 
-# announcements:
-#   enabled: true
-#   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-#   limit: 5 # leave blank to include all the news in the `_news` folder
+announcements:
+  enabled: true
+  scrollable: false
+  limit: 5 # the news page shows the full archive
 
 # latest_posts:
 #   enabled: true
@@ -641,6 +641,8 @@ jsonresume:
   - publications
   - projects
   - volunteer
+  - teaching
+  - talks
   - awards
   - certificates
   - skills

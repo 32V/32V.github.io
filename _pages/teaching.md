@@ -2,11 +2,13 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: false
+description: Course assistant experience at KAIST.
+nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+### Spring 2026
 
-Organize your courses by years, topics, or universities, however you like!
+**Course Assistant**, [CS.40709 (CS479): Machine Learning for 3D Data](https://3dml.kaist.ac.kr/), School of Computing, KAIST.
+
+Instructor: [Prof. Minhyuk Sung](https://mhsung.github.io/).

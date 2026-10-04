@@ -5,31 +5,24 @@
     "image": "",
     "email": "aaaaa@kaist.ac.kr",
     "url": "https://32V.github.io/",
-    "summary": "M.S. student at KAIST Visual AI Lab, conducting research on generative models and computer graphics. Interested in generative modeling and visual content generation, including images, videos, and textures."
+    "summary": "M.S. student at KAIST Visual AI Group, advised by Prof. Minhyuk Sung. Researching diffusion and flow-based generative models for multimodal generation, visual content creation, and computer graphics.",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "32V",
+        "url": "https://github.com/32V"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "kyeongmin-yeo-a2964535b",
+        "url": "https://www.linkedin.com/in/kyeongmin-yeo-a2964535b"
+      }
+    ]
   },
   "interests": [
     {
       "name": "Academic Interests",
       "keywords": ["Generative AI", "Diffusion & Flow-Based Generative Models", "Computer Vision", "Visual Content Creation"]
-    }
-  ],
-  "work": [
-    {
-      "name": "KAIST Visual AI Group",
-      "location": "Daejeon, South Korea",
-      "position": "M.S. Student",
-      "url": "https://visualai.kaist.ac.kr/",
-      "startDate": "2026-02",
-      "summary": "Conducting research on generative models and computer graphics under the supervision of Prof. Minhyuk Sung."
-    },
-    {
-      "name": "KAIST Visual AI Group",
-      "location": "Daejeon, South Korea",
-      "position": "Undergraduate Intern",
-      "url": "https://visualai.kaist.ac.kr/",
-      "startDate": "2023-12",
-      "endDate": "2026-02",
-      "summary": "Conducted research on generative models and computer graphics under the supervision of Prof. Minhyuk Sung."
     }
   ],
   "education": [
@@ -51,69 +44,130 @@
       "courses": ["Summa Cum Laude (GPA: 4.18 / 4.3, Major GPA: 4.30 / 4.3)", "Top Rank in Computer Science Department"]
     }
   ],
+  "work": [
+    {
+      "name": "KAIST Visual AI Group",
+      "location": "Daejeon, South Korea",
+      "position": "M.S. Student",
+      "url": "https://visualai.kaist.ac.kr/",
+      "startDate": "2026-02",
+      "summary": "Conducting research on generative models and computer graphics under the supervision of Prof. Minhyuk Sung."
+    },
+    {
+      "name": "KAIST Visual AI Group",
+      "location": "Daejeon, South Korea",
+      "position": "Undergraduate Intern",
+      "url": "https://visualai.kaist.ac.kr/",
+      "startDate": "2023-12",
+      "endDate": "2026-02",
+      "summary": "Conducted research on generative models and computer graphics under the supervision of Prof. Minhyuk Sung."
+    }
+  ],
+  "teaching": [
+    {
+      "name": "CS.40709 (CS479): Machine Learning for 3D Data",
+      "position": "Course Assistant",
+      "organization": "School of Computing, KAIST",
+      "date": "Spring 2026",
+      "url": "https://3dml.kaist.ac.kr/",
+      "summary": "Instructor: Prof. Minhyuk Sung."
+    }
+  ],
+  "talks": [
+    {
+      "name": "MatLat: Material Latent Space for PBR Texture Generation",
+      "position": "Highlight Talk",
+      "organization": "APPX: Appearance Understanding and Generation Workshop, CVPR 2026",
+      "date": "June 4, 2026",
+      "url": "https://appx-workshop.github.io/"
+    }
+  ],
   "publications": [
+    {
+      "name": "MUNI: Multimodal Unified Latent Diffusion for Coherent Any-to-Any Generation",
+      "publisher": "NeurIPS 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2606.16408",
+      "summary": "A shared latent diffusion framework for coherent generation across image, text, and audio.",
+      "authors": "Kyeongmin Yeo*, Yunhong Min*, Minhyuk Sung"
+    },
     {
       "name": "MatLat: Material Latent Space for PBR Texture Generation",
       "publisher": "CVPR 2026 (Highlight)",
       "releaseDate": "2026",
       "url": "https://arxiv.org/abs/2512.17302",
-      "summary": "A material latent space for physically based rendering (PBR) texture generation."
+      "summary": "A material latent space for physically based rendering (PBR) texture generation.",
+      "authors": "Kyeongmin Yeo, Yunhong Min, Jaihoon Kim, Minhyuk Sung"
     },
     {
       "name": "PairFlow: Closed-Form Source-Target Coupling for Few-Step Generation in Discrete Flow Models",
       "publisher": "ICLR 2026",
       "releaseDate": "2026",
       "url": "https://arxiv.org/abs/2512.20063",
-      "summary": "A closed-form source-target coupling method for few-step generation in discrete flow models."
+      "summary": "A closed-form source-target coupling method for few-step generation in discrete flow models.",
+      "authors": "Mingue Park*, Jisung Hwang*, Seungwoo Yoo*, Kyeongmin Yeo, Minhyuk Sung"
     },
     {
       "name": "Ψ-Sampler: Initial Particle Sampling for SMC-Based Inference-Time Reward Alignment in Score Models",
       "publisher": "NeurIPS 2025 (Spotlight)",
       "releaseDate": "2025",
       "url": "https://arxiv.org/abs/2506.01320",
-      "summary": "A novel initial particle sampling method for SMC-based inference-time reward alignment in score models."
+      "summary": "A novel initial particle sampling method for SMC-based inference-time reward alignment in score models.",
+      "authors": "Taehoon Yoon*, Yunhong Min*, Kyeongmin Yeo*, Minhyuk Sung"
     },
     {
       "name": "ORIGEN: Zero-Shot 3D Orientation Grounding in Text-to-Image Generation",
       "publisher": "NeurIPS 2025",
       "releaseDate": "2025",
       "url": "https://arxiv.org/abs/2503.22194",
-      "summary": "A method for zero-shot 3D orientation grounding in text-to-image generation."
+      "summary": "A method for zero-shot 3D orientation grounding in text-to-image generation.",
+      "authors": "Yunhong Min*, Daehyeon Choi*, Kyeongmin Yeo, Jihyun Lee, Minhyuk Sung"
     },
     {
       "name": "Neural Green's Functions",
       "publisher": "NeurIPS 2025",
       "releaseDate": "2025",
       "url": "https://arxiv.org/abs/2511.01924",
-      "summary": "A neural solution operator for linear partial differential equations inspired by Green's functions."
+      "summary": "A neural solution operator for linear partial differential equations inspired by Green's functions.",
+      "authors": "Seungwoo Yoo, Kyeongmin Yeo, Jisung Hwang, Minhyuk Sung"
     },
     {
       "name": "StochSync: Stochastic Diffusion Synchronization for Image Generation in Arbitrary Spaces",
       "publisher": "ICLR 2025",
       "releaseDate": "2025",
       "url": "https://arxiv.org/abs/2501.15445",
-      "summary": "A stochastic diffusion synchronization framework for image generation in arbitrary spaces."
+      "summary": "A stochastic diffusion synchronization framework for image generation in arbitrary spaces.",
+      "authors": "Kyeongmin Yeo*, Jaihoon Kim*, Minhyuk Sung"
     },
     {
       "name": "Neural Pose Representation Learning for Generating and Transferring Non-Rigid Object Poses",
       "publisher": "NeurIPS 2024",
       "releaseDate": "2024",
       "url": "https://arxiv.org/abs/2406.09728",
-      "summary": "A neural pose representation for generating and transferring non-rigid object poses."
+      "summary": "A neural pose representation for generating and transferring non-rigid object poses.",
+      "authors": "Seungwoo Yoo, Juil Koo, Kyeongmin Yeo, Minhyuk Sung"
     },
     {
       "name": "SyncTweedies: A General Generative Framework Based on Synchronized Diffusions",
       "publisher": "NeurIPS 2024",
       "releaseDate": "2024",
       "url": "https://arxiv.org/abs/2403.14370",
-      "summary": "A general framework for generating diverse visual content by synchronizing multiple diffusion processes."
+      "summary": "A general framework for generating diverse visual content by synchronizing multiple diffusion processes.",
+      "authors": "Jaihoon Kim*, Juil Koo*, Kyeongmin Yeo*, Minhyuk Sung"
     }
   ],
   "awards": [
     {
-      "title": "Graduate of the Year, Presidential Award",
-      "date": "2026",
-      "awarder": "KAIST"
+      "title": "Presidential Science Scholarship for Graduate Students",
+      "date": "2026-07",
+      "awarder": "Korea Student Aid Foundation (KOSAF)",
+      "url": "https://visualai.kaist.ac.kr/news/"
+    },
+    {
+      "title": "President's Award for Outstanding Graduates",
+      "date": "2026-02-20",
+      "awarder": "KAIST",
+      "url": "https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=58350"
     },
     {
       "title": "Next-Generation Engineer Grand Prize, 2nd Cohort",
@@ -174,9 +228,18 @@
   ],
   "volunteer": [
     {
+      "organization": "NeurIPS",
+      "position": "Reviewer",
+      "startDate": "2026",
+      "endDate": "2026",
+      "url": "https://neurips.cc/Conferences/2026"
+    },
+    {
       "organization": "ICLR",
       "position": "Reviewer",
-      "startDate": "2026"
+      "startDate": "2026",
+      "endDate": "2026",
+      "url": "https://iclr.cc/Conferences/2026"
     }
   ]
 }

@@ -2,26 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>aaaaa@kaist.ac.kr</a>.
+subtitle: <a href="mailto:aaaaa@kaist.ac.kr">aaaaa@kaist.ac.kr</a>
 
 profile:
   align: right
   image: 32v_profile.png
-  image_circular: true # crops the image to make it circular
+  image_circular: true
   more_info: >
-    <p>KAIST '22</p>
-    <p>Visual AI Lab M.S. Student</p>
+    <p>M.S. Student, KAIST</p>
+    <p>Visual AI Group</p>
     <p>Generative AI & Computer Graphics</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: true
+selected_papers: true
+social: true
 ---
 
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an M.S. student at the [KAIST Visual AI Group](https://visualai.kaist.ac.kr/), advised by [Prof. Minhyuk Sung](https://mhsung.github.io/). My research focuses on diffusion and flow-based generative models for multimodal generation, visual content creation, and computer graphics.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
-
-I am a M.S. student at the KAIST Visual AI Lab, advised by Prof. Minhyuk Sung. My research mainly focuses on generative AI, especially diffusion-based and flow-based models. I am particularly interested in the application of these models in computer vision and content creation.
+I received my B.S. in Computer Science, with a minor in Mathematical Sciences, from KAIST in 2026. I graduated summa cum laude and received the [KAIST President's Award for Outstanding Graduates](https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=58350).
