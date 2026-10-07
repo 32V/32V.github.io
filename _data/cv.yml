@@ -83,8 +83,7 @@
       linkitems:
         - link: https://arxiv.org/abs/2512.20063
           linkname: Paper
-    - title:
-        "Ψ-Sampler: Initial Particle Sampling for SMC-Based Inference-Time Reward Alignment in Score
+    - title: "Ψ-Sampler: Initial Particle Sampling for SMC-Based Inference-Time Reward Alignment in Score
         Models"
       year: "2025"
       description:
