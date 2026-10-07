@@ -20,7 +20,7 @@
       year: Feb 2022 - Feb 2026
       description:
         - "Summa Cum Laude (GPA: 4.18 / 4.3, Major GPA: 4.30 / 4.3)"
-        - Top Rank in Computer Science Department
+        - Top Rank in School of Computing
 - title: Research Experience
   type: time_table
   contents:
@@ -28,14 +28,12 @@
       institution: KAIST Visual AI Group
       year: Feb 2026 - Present
       description:
-        - Conducting research on generative models and computer graphics under the supervision
-          of Prof. Minhyuk Sung.
+        - Research on generative modeling and multimodal generation.
     - title: Undergraduate Intern
       institution: KAIST Visual AI Group
       year: Dec 2023 - Feb 2026
       description:
-        - Conducted research on generative models and computer graphics under the supervision
-          of Prof. Minhyuk Sung.
+        - Research on visual content generation using diffusion models.
 - title: Teaching
   type: time_table
   contents:
@@ -43,8 +41,7 @@
       institution: School of Computing, KAIST
       year: Spring 2026
       description:
-        - Course Assistant
-        - "Instructor: Prof. Minhyuk Sung."
+        - Teaching Assistant (TA)
       linkitems:
         - link: https://3dml.kaist.ac.kr/
           linkname: Details
@@ -78,8 +75,7 @@
       linkitems:
         - link: https://arxiv.org/abs/2512.17302
           linkname: Paper
-    - title: "PairFlow: Closed-Form Source-Target Coupling for Few-Step Generation in
-        Discrete Flow Models"
+    - title: "PairFlow: Closed-Form Source-Target Coupling for Few-Step Generation in Discrete Flow Models"
       year: "2026"
       description:
         - Mingue Park*, Jisung Hwang*, Seungwoo Yoo*, Kyeongmin Yeo, Minhyuk Sung
@@ -87,8 +83,9 @@
       linkitems:
         - link: https://arxiv.org/abs/2512.20063
           linkname: Paper
-    - title: "Ψ-Sampler: Initial Particle Sampling for SMC-Based Inference-Time Reward
-        Alignment in Score Models"
+    - title:
+        "Ψ-Sampler: Initial Particle Sampling for SMC-Based Inference-Time Reward Alignment in Score
+        Models"
       year: "2025"
       description:
         - Taehoon Yoon*, Yunhong Min*, Kyeongmin Yeo*, Minhyuk Sung
@@ -112,8 +109,7 @@
       linkitems:
         - link: https://arxiv.org/abs/2511.01924
           linkname: Paper
-    - title: "StochSync: Stochastic Diffusion Synchronization for Image Generation in
-        Arbitrary Spaces"
+    - title: "StochSync: Stochastic Diffusion Synchronization for Image Generation in Arbitrary Spaces"
       year: "2025"
       description:
         - Kyeongmin Yeo*, Jaihoon Kim*, Minhyuk Sung
@@ -121,8 +117,7 @@
       linkitems:
         - link: https://arxiv.org/abs/2501.15445
           linkname: Paper
-    - title: Neural Pose Representation Learning for Generating and Transferring Non-Rigid
-        Object Poses
+    - title: Neural Pose Representation Learning for Generating and Transferring Non-Rigid Object Poses
       year: "2024"
       description:
         - Seungwoo Yoo, Juil Koo, Kyeongmin Yeo, Minhyuk Sung
@@ -145,50 +140,80 @@
       institution: Korea Student Aid Foundation (KOSAF)
       year: Jul 2026
       description: []
-    - title: President's Award for Outstanding Graduates
+      linkitems:
+        - link: https://visualai.kaist.ac.kr/news/
+          linkname: Details
+    - title: Graduate of the Year Award (KAIST President's Award)
       institution: KAIST
       year: "2026-02-20"
       description: []
+      linkitems:
+        - link: https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=58350
+          linkname: Details
     - title: Next-Generation Engineer Grand Prize, 2nd Cohort
-      institution: Institute for Promotion of Engineering and Science in Korea (IPESK)
+      institution: Institute for Promotion of Engineering and Science of Korea (IPESK)
       year: "2025"
       description: []
-    - title: Kim Yong-Han Global Leader Scholarship
+      linkitems:
+        - link: https://ipesk.or.kr/55
+          linkname: Details
+    - title: Young-Han Kim Global Leader Scholarship
       institution: KAIST
       year: "2025"
       description: []
-    - title: Outstanding Award (2nd place), Undergraduate Research Program (URP)
+      linkitems:
+        - link: https://visualai.kaist.ac.kr/news/
+          linkname: Details
+    - title: Outstanding Award (2nd place), Undergraduate Research Participation Program (URP)
       institution: College of Engineering, KAIST
       year: "2025"
       description:
         - Winter/Spring 2025
+      linkitems:
+        - link: https://engineering.kaist.ac.kr/content?menu=61
+          linkname: Details
     - title: Global Leadership Award (Creativity)
       institution: KAIST
       year: "2025"
       description: []
-    - title: College of Engineering Leadership Award
+    - title: CoE Leadership Award
       institution: College of Engineering, KAIST
       year: "2024"
       description:
         - Fall 2024
+      linkitems:
+        - link: https://engineering.kaist.ac.kr/student/innovator
+          linkname: Details
     - title: Dean's List
       institution: KAIST
       year: 2022–2023
       description:
         - Fall 2022, Spring 2023
+      linkitems:
+        - link: https://engineering.kaist.ac.kr/student/dean
+          linkname: Details
     - title: Department Honors Scholarship
       institution: School of Computing, KAIST
       year: "2023"
       description:
         - Spring 2023
+      linkitems:
+        - link: https://www.kaist.ac.kr/en/html/edu/03100502.html
+          linkname: Details
     - title: KAIST Presidential Fellowship (KPF), 12th Cohort
       institution: KAIST
       year: "2022"
       description: []
+      linkitems:
+        - link: https://leadership.kaist.ac.kr/en/page/sub/sub_0501.do
+          linkname: Details
     - title: National Excellence Scholarship (Natural Sciences and Engineering)
       institution: Korea Student Aid Foundation
       year: "2022"
       description: []
+      linkitems:
+        - link: https://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp?ttab1=0
+          linkname: Details
 - title: Academic Service
   type: time_table
   contents:
@@ -199,7 +224,6 @@
 - title: Academic Interests
   type: list
   contents:
-    - Generative AI
-    - Diffusion & Flow-Based Generative Models
-    - Computer Vision
-    - Visual Content Creation
+    - Generative Modeling
+    - Multimodal AI
+    - World Models
