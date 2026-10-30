@@ -83,6 +83,14 @@
   ],
   "publications": [
     {
+      "name": "MUNITE: Unified Multimodal Latent Inference for Any-to-Any Multimodal Generation",
+      "publisher": "arXiv preprint, 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2610.09866",
+      "summary": "Unified conditional latent inference for coherent any-to-any multimodal generation, learned through self-distilled conditional flow matching.",
+      "authors": "Kyeongmin Yeo, Minhyuk Sung"
+    },
+    {
       "name": "MUNI: Multimodal Unified Latent Diffusion for Coherent Any-to-Any Generation",
       "publisher": "NeurIPS 2026",
       "releaseDate": "2026",
@@ -227,6 +235,13 @@
     }
   ],
   "volunteer": [
+    {
+      "organization": "ICLR",
+      "position": "Reviewer",
+      "startDate": "2027",
+      "endDate": "2027",
+      "url": "https://iclr.cc/Conferences/2027"
+    },
     {
       "organization": "NeurIPS",
       "position": "Reviewer",

@@ -59,6 +59,14 @@
 - title: Publications
   type: time_table
   contents:
+    - title: "MUNITE: Unified Multimodal Latent Inference for Any-to-Any Multimodal Generation"
+      year: "2026"
+      description:
+        - Kyeongmin Yeo, Minhyuk Sung
+        - arXiv preprint, 2026
+      linkitems:
+        - link: https://arxiv.org/abs/2610.09866
+          linkname: Paper
     - title: "MUNI: Multimodal Unified Latent Diffusion for Coherent Any-to-Any Generation"
       year: "2026"
       description:
@@ -216,6 +224,8 @@
 - title: Academic Service
   type: time_table
   contents:
+    - title: Reviewer, ICLR
+      year: "2027"
     - title: Reviewer, NeurIPS
       year: "2026"
     - title: Reviewer, ICLR

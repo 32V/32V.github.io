@@ -20,7 +20,6 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import (
     HRFlowable,
     KeepTogether,
-    PageBreak,
     Paragraph,
     SimpleDocTemplate,
     Spacer,
@@ -117,10 +116,11 @@ def build(output, updated):
 
     section("Research Experience")
     for entry in resume["work"]:
-        # The current M.S. appointment is already listed under Education.
-        if entry["position"] == "M.S. Student":
-            continue
-        story.append(KeepTogether([row(link(entry["name"], entry["url"]), date_range(entry)), p(text(entry["position"]) + " - Advisor: " + link("Minhyuk Sung", "https://mhsung.github.io/"))]))
+        block = [row(link(entry["name"], entry["url"]), date_range(entry)), p(text(entry["position"]) + " - Advisor: " + link("Minhyuk Sung", "https://mhsung.github.io/"))]
+        if entry.get("summary"):
+            block.append(p(text(entry["summary"])))
+        block.append(Spacer(1, 5))
+        story.append(KeepTogether(block))
 
     section("Publications")
     for number, entry in enumerate(resume["publications"], 1):
@@ -136,10 +136,12 @@ def build(output, updated):
         story.append(KeepTogether([p(f"{number}. {title_markup}", paper_style), p(authors, details_style), p("<i>" + text(entry["publisher"]) + "</i>", details_style), Spacer(1, 5)]))
     story.append(p("* Equal contribution.", small))
 
-    story.append(PageBreak())
     section("Teaching")
     for entry in resume["teaching"]:
-        story.extend([row("<b>" + text(entry["position"]) + "</b>, " + text(entry["organization"]), entry["date"], width - 110), p(link(entry["name"], entry["url"])), p(text(entry["summary"])), Spacer(1, 4)])
+        story.extend([row("<b>" + text(entry["position"]) + "</b>, " + text(entry["organization"]), entry["date"], width - 110), p(link(entry["name"], entry["url"]))])
+        if entry.get("summary"):
+            story.append(p(text(entry["summary"])))
+        story.append(Spacer(1, 4))
 
     section("Talks")
     for entry in resume["talks"]:
